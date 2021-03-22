@@ -23,6 +23,7 @@ export default function Subscription(props) {
       body: JSON.stringify(data),
     };
 
+    props.hideReq();
     setShowForm(false);
     setIsLoading(true);
     fetch("api/hotels/subscribe", requestOptions)
