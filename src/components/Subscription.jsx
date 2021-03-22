@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import LoadingMask from "./LoadingMask";
 
 export default function Subscription(props) {
